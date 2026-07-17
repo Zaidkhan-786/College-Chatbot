@@ -15,8 +15,7 @@ router = APIRouter(
 def create_student(student: StudentCreate, db: Session = Depends(get_db)):
     new_student = Student(
         full_name=student.full_name,
-        phone_number=student.phone_number,
-        year=student.year
+        phone_number=student.phone_number
     )
 
     db.add(new_student)

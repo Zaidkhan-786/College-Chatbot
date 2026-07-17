@@ -1,6 +1,18 @@
 @import "tailwindcss";
 
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
 body{
-    margin:0;
-    padding:0;
+
+background:#0B1120;
+
+color:white;
+
+overflow-x:hidden;
+
 }

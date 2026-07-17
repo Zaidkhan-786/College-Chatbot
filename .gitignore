@@ -25,3 +25,8 @@ logs/
 # Build
 dist/
 build/
+
+# SQLite Database
+*.db
+*.sqlite3
+.envgit
