@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Landing from "../pages/Landing";
 import Login from "../pages/Login";
-import Dashboard from "../pages/Dashboard";
+import ChatHome from "../pages/ChatHome";
 
 function AppRouter() {
   return (
@@ -13,7 +13,7 @@ function AppRouter() {
 
         <Route path="/login" element={<Login />} />
 
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/chat" element={<ChatHome/>}/>
 
       </Routes>
     </BrowserRouter>

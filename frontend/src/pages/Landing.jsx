@@ -43,7 +43,7 @@ function Landing() {
 
                 <button
 
-                    onClick={()=>navigate("/login")}
+                    onClick={()=>navigate("/chat")}
 
                     className="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl text-xl transition"
 

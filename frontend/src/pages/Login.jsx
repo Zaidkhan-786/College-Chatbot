@@ -47,7 +47,7 @@ function Login() {
                 phone_number: phone
             });
 
-            navigate("/dashboard");
+            navigate("/chat");
 
         } catch (err) {
 
